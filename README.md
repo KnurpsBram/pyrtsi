@@ -1,6 +1,6 @@
 # Real-Time Spectrogram Inversion (RTSI)
 
-Python implementation of RTSI. The algorithm needs no iterations and no information about future spectrogram columns. It is ideal for true real-time ('streaming') audio conversion applications. The algorithm is inspired by RTISI-LA [(see paper)](https://ieeexplore.ieee.org/document/4244543). The algorithm inverts the spectrogram column-by-column, each time using the overlapping previous frames to make a good estimate of the phase of the current frame.  
+Python implementation of RTSI. The algorithm needs no iterations and no information about future spectrogram columns. It is ideal for true real-time ('streaming') audio conversion applications.  It inverts the spectrogram column-by-column, each time using the overlapping previous frames to make a good estimate of the phase of the current frame. The algorithm is inspired by RTISI-LA [(see paper)](https://ieeexplore.ieee.org/document/4244543).
 
 Can be as simple as:
 ```
